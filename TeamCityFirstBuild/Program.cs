@@ -6,7 +6,7 @@ namespace TeamCityFirstBuild
 {
 	class Program
 	{
-		static void Main(string[] args)
+		static void Main(/*string[] args*/)
 		{
 			Log.Logger = new LoggerConfiguration().CreateLogger();
 			Log.Information("No one listens to me!");
