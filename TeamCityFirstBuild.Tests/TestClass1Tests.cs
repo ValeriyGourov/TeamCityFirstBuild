@@ -5,7 +5,7 @@ namespace TeamCityFirstBuild.Tests
 	[TestClass]
 	public class TestClass1Tests
 	{
-		[TestMethod("РўРµСЃС‚РѕРІС‹Р№ РјРµС‚РѕРґ 1")]
+		[TestMethod("Тестовый метод 1")]
 		public void TestMethod1Test()
 		{
 			// Arrange.
