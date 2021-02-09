@@ -21,5 +21,20 @@ namespace TeamCityFirstBuild.Tests
 			// Assert.
 			Assert.AreEqual(expected, actual);
 		}
+
+		[TestMethod("Тестовый метод 2")]
+		[DataRow(4, 5, 9)]
+		[DataRow(5, 5, 10)]
+		public void TestMethod1Test(int arg1, int arg2, int expected)
+		{
+			// Arrange.
+			TestClass1 testClass1 = new();
+
+			// Act.
+			int actual = testClass1.TestMethod1(arg1, arg2);
+
+			// Assert.
+			Assert.AreEqual(expected, actual);
+		}
 	}
 }
