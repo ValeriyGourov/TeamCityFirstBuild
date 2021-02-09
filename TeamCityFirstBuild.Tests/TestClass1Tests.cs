@@ -1,11 +1,11 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+п»їusing Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TeamCityFirstBuild.Tests
 {
 	[TestClass]
 	public class TestClass1Tests
 	{
-		[TestMethod("Тестовый метод 1")]
+		[TestMethod("РўРµСЃС‚РѕРІС‹Р№ РјРµС‚РѕРґ 1")]
 		public void TestMethod1Test()
 		{
 			// Arrange.
