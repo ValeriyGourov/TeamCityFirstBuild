@@ -15,9 +15,6 @@ namespace TeamCityFirstBuild
 
 			// Finally, once just before the application exits...
 			Log.CloseAndFlush();
-
-
-			ввввв
 		}
 	}
 }
